@@ -28,56 +28,25 @@ As rodadas são automáticas e os resultados são transmitidos ao vivo aos jogad
 ![UI MotoGrau](https://i.ibb.co/42BnW3g/MotoGrau.png)
 
 
+## Minhas Considerações
 
-## Sobre o WallStreet
-	
-O Wallstreet é um jogo de predição de tendência, inspirado na plataforma IQ Option. O Objetivo é "adivinhar" qual será a próxima tendência do mercado: subir, descer, ou manter (Bull).
+- Minha análise sobre o projeto foi, fazer uma pesquisa de plataformas que tenha o jogo de crash, e apartir daí, verificar a paleta de cores usada por cada plataforma, e não tem um padrão específico, então para que o jogo se adeque a qualquer plataformas, adicionei alguns tons mais neutros, que entraria em qualquer paleta de cores.
 
-Caso o jogador acerte as tendências de Subida ou Descida, seu prêmio é o valor apostado 2x. Caso acerte a tendência Bull, seu prêmio é o valor apostado 20x.
-
-![UI WallStreet](https://i.ibb.co/yPCK0mG/Wall-Street.png)
-
-
-## Orientações
-
-**Essa sessão traz orientações-base para a execução do desafio:**
-
-1. Criamos **interfaces funcionais de exemplo** para o **Motograu** e **WallStreet**. Nesta interface estão inclusos todos os componentes e funcionalidades básicas e obrigatórias. **Inicie seu desenvolvimento a partir dela**.
-2. As animações de ambos os jogos são compiladas, portanto, elas não devem ser alteradas, apenas os elementos de UI.
-3. Não modifique os componentes globais (core), eles servem apenas como base.
-4. Você é livre para criar novos componentes que gerem valor. **Exemplo:** 
-	- Contagem de players online;
-	- Chat visível;
-	- Notificações e animações visuais;
-	- Outras informações que possam ser interessante para o jogador;
-
-
-## Avaliação
-
-**Você será avaliado com base nos seguintes critérios:**
-
-- Abordagem técnica;
-- Qualidade e clareza do código;
-- Feeling, criatividade e qualidade na concepção da UI e UX;
-
+  
 
 ## Stacks
 - React
 - TailwindCss
 - Websocket
 
-## Plus
-Utilize uma biblioteca gráfica, como Apex Chart, para desenvolver um gráfico inspirado na IQ Option.
-
-
 
 # Instruções técnicas
 
-Este projeto contém a aplicação das interfaces dos jogos **WallStreet** e **Motograu**:
+Este projeto contém a aplicação das interfaces do jogo **Motograu**:
 
 ### 1. Clone o repositório:
 ```bash
-git clone https://github.com/hypetechgames/frontend-challenge
+git clone [https://github.com/hypetechgames/frontend-challenge](https://github.com/anderssoncosta/frontend-challenge)
 ```
 
 ### 2. Instale as dependências e inicie o projeto
