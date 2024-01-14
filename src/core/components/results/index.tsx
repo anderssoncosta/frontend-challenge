@@ -42,10 +42,10 @@ export default function MultiplierResults({ variant }: Props) {
                 showRoundInfo={showRoundInfo}
                 textColor={
                   result.point < 2
-                    ? 'text-[#34b4ff]'
+                    ? 'text-[#FFFFFF]'
                     : result.point < 10
-                    ? 'text-[#913ef8]'
-                    : 'text-[#c017b4]'
+                    ? 'text-[#03874f]'
+                    : 'text-[#04d47c]'
                 }
                 roundId={result.round_id}
                 multipler={result.point}
@@ -73,10 +73,10 @@ export default function MultiplierResults({ variant }: Props) {
                     showRoundInfo={showRoundInfo}
                     textColor={
                       result.point < 2
-                        ? 'text-[#34b4ff]'
+                        ? 'text-[#FFFFFF]'
                         : result.point < 10
-                        ? 'text-[#913ef8]'
-                        : 'text-[#c017b4]'
+                        ? 'text-[#03874f]'
+                        : 'text-[#04d47c]'
                     }
                     roundId={result.round_id}
                     multipler={result.point}

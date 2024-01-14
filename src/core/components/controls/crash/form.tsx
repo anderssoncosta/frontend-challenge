@@ -345,7 +345,7 @@ export default function CrashForm({
               }
             >
               <button
-                className={`btn border-2 text-[22px] hover:text-[24px] bg-[#ff7700] rounded-[20px] hover:bg-[#d26200] border-[#ffffff40] flex flex-col px-0 text-white h-full w-full`}
+                className={`btn border-2 text-[22px] hover:text-[24px] bg-[#800000] rounded-[20px] hover:bg-[#8B0000] border-[#ffffff40] flex flex-col px-0 text-white h-full w-full`}
                 onClick={() => cashOut(position)}
               >
                 <If condition={transaction.autoStarted}>
